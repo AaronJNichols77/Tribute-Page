@@ -1,0 +1,148 @@
+body {
+    font-family: Helvetica; 
+    font-size: 22px;
+    color: black;
+    background-color: white;
+    opacity: 1;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .header { 
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    opacity: .6;
+  }
+  
+  .logo {
+    float: right;
+    padding-left: 10px;
+    height: 100px;
+    opacity: 1;
+  }
+  
+  .navigation {
+    height: 100%;
+    float: left;
+    margin: 0;
+  }
+  
+  .navigation a {
+    height: 100%;
+    padding: 0px 10px;
+    display: table;
+    float: left;
+  }
+  
+  .navigation a li {
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    height: 100%;
+    text-decoration: underline;
+  }
+  
+  .background-image {
+    background-image: url('/Users/aaronnichols/Desktop/CodeAcademy /AcroYoga tribute/Resources/Images/IMG-20220309-WA0005.jpg');
+    background-position: center;
+    max-width: 99%;
+    display: flex;
+    height: 700px;
+    margin: 0px auto 30px auto; 
+    background-repeat: no-repeat;
+  }
+
+  .background-image1 {
+    background-image: url('/Users/aaronnichols/Desktop/CodeAcademy /AcroYoga tribute/Resources/Images/Screen Shot 2022-09-30 at 12.49.36 PM.png');
+    background-position: center;
+    max-width: 99%;
+    display: flex;
+    height: 700px;
+    margin: 30px auto 30px auto; 
+    background-repeat: no-repeat;
+  }
+
+  .background-image2 {
+    background-image: url('/Users/aaronnichols/Desktop/CodeAcademy /AcroYoga tribute/Resources/Images/IMG-20220526-WA0018.jpg');
+    background-position: center;
+    max-width: 99%;
+    display: flex;
+    height: 700px;
+    margin: 30px auto 30px auto; 
+    background-repeat: no-repeat;
+  }
+  
+  .front-text {
+    background-color: grey;
+    width: 95%;
+    margin: auto;
+    opacity: .75;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .acropics-container {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    height: auto; 
+    justify-content: center;
+  }
+  
+  .acropics img {
+    padding: 10px 10px; 
+    max-height: 500px;
+    max-width: 500px; 
+  }
+  
+  .principles-background {
+    max-width: 1200px;
+    height: 750px;
+    margin: 40px auto auto auto;
+    padding-top: 70px; 
+    background-image: url('/Users/aaronnichols/Desktop/CodeAcademy /AcroYoga tribute/Resources/Images/IMG-20220222-WA0012 (1).jpg');
+    background-position: center;
+  }
+  
+  .covertext {
+    font-weight: bold;
+    color: black;
+    background-color: gray;
+    width: 100%;
+    opacity: .7;
+    float: middle;
+  }
+  
+  .principles-box {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto auto auto;
+    justify-content: space-between;
+    color: black;
+  }
+  
+  .principles {
+    opacity: .7;
+    background-color: gray;
+    height: 250px;
+    padding: 10px;
+    margin-bottom: auto; 
+    box-sizing: border-box;
+    flex-basis: 30%;
+  }
+  
+  footer {
+    display: block;
+    float: left;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding-left: 20px;
+    font-size: .85rem;
+    background-color: gray;
+  }
